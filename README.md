@@ -9,3 +9,10 @@
 
 #### 추가
 - was-practice 에서 만들었던 calculator 패키지 추가
+
+### Servlet 상속 구조
+![img_1.png](img_1.png)
+- Servlet 인터페이스 구현 → Servlet 에서 필수로 구현하게 하기 때문에 필요하지 않은 메서드도 구현이 필요함 (상당히 비효율적)
+- 위의 사유로 GenericServlet (abstract class) 등장하게 됨
+=> Servlet 인터페이스 사용 시, 필요없는 메서드까지 구현해야 했음
+=> GenericServlet 이라는 추상 클래스 사용 시, 필요한 메서드만 override 함!

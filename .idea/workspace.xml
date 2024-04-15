@@ -4,17 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="96aa8fb9-e2af-4c42-9625-bd09094e2372" name="Changes" comment="Servlet 인터페이스를 구현한 구현체 CalculatorServlet 추가 &amp; /calculate 호출 테스트">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/calculate/AdditionOperator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/calculate/Calculator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/calculate/DivisionOperator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/calculate/MultiplicationOperator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/calculate/NewArithmeticOperator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/calculate/PositiveNumber.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/example/calculate/SubtractionOperator.java" afterDir="false" />
+    <list default="true" id="96aa8fb9-e2af-4c42-9625-bd09094e2372" name="Changes" comment="servlet interface 구현 -&gt; 필요하지 않지만 Servlet 에서 필수로 구현하게 하기 때문에 불필요한 부분이 존재함">
+      <change afterPath="$PROJECT_DIR$/img_1.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/CalculatorServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/CalculatorServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test.http" beforeDir="false" afterPath="$PROJECT_DIR$/test.http" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +44,7 @@
   "keyToString": {
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/leo/study/fastcampus/servlet-practice/src/main/java/org/example",
+    "last_opened_file_path": "/Users/leo/study/fastcampus/servlet-practice",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
@@ -59,6 +53,7 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/src/main/java/org/example" />
     </key>
   </component>
@@ -94,7 +89,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1713107363414</updated>
-      <workItem from="1713107365104" duration="3748000" />
+      <workItem from="1713107365104" duration="4207000" />
     </task>
     <task id="LOCAL-00001" summary="readme.md 파일 추가">
       <created>1713109654065</created>
@@ -110,7 +105,14 @@
       <option name="project" value="LOCAL" />
       <updated>1713110010291</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="servlet interface 구현 -&gt; 필요하지 않지만 Servlet 에서 필수로 구현하게 하기 때문에 불필요한 부분이 존재함">
+      <created>1713185130615</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1713185130615</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -130,6 +132,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="readme.md 파일 추가" />
     <MESSAGE value="Servlet 인터페이스를 구현한 구현체 CalculatorServlet 추가 &amp; /calculate 호출 테스트" />
-    <option name="LAST_COMMIT_MESSAGE" value="Servlet 인터페이스를 구현한 구현체 CalculatorServlet 추가 &amp; /calculate 호출 테스트" />
+    <MESSAGE value="servlet interface 구현 -&gt; 필요하지 않지만 Servlet 에서 필수로 구현하게 하기 때문에 불필요한 부분이 존재함" />
+    <option name="LAST_COMMIT_MESSAGE" value="servlet interface 구현 -&gt; 필요하지 않지만 Servlet 에서 필수로 구현하게 하기 때문에 불필요한 부분이 존재함" />
   </component>
 </project>
