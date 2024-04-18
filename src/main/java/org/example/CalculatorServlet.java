@@ -7,15 +7,18 @@ import org.slf4j.LoggerFactory;
 
 import javax.servlet.*;
 import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
 import java.io.PrintWriter;
 
 @WebServlet("/calculate")
-public class CalculatorServlet extends GenericServlet {
+public class CalculatorServlet extends HttpServlet {
     private static final Logger log = LoggerFactory.getLogger(CalculatorServlet.class);
 
     @Override
-    public void service(ServletRequest req, ServletResponse res) throws ServletException, IOException {
+    protected void doGet(HttpServletRequest req, HttpServletResponse res) throws ServletException, IOException {
         log.info("service");
         int operand1 = Integer.parseInt(req.getParameter("operand1"));
         String operator = req.getParameter("operator");
@@ -26,5 +29,4 @@ public class CalculatorServlet extends GenericServlet {
         PrintWriter writer = res.getWriter();
         writer.println(result);
     }
-
 }

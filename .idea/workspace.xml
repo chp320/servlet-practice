@@ -4,11 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="96aa8fb9-e2af-4c42-9625-bd09094e2372" name="Changes" comment="servlet interface 구현 -&gt; 필요하지 않지만 Servlet 에서 필수로 구현하게 하기 때문에 불필요한 부분이 존재함">
-      <change afterPath="$PROJECT_DIR$/img_1.png" afterDir="false" />
+    <list default="true" id="96aa8fb9-e2af-4c42-9625-bd09094e2372" name="Changes" comment="GenericServlet 추상 클래스 사용 구현">
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/example/CalculatorServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/CalculatorServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test.http" beforeDir="false" afterPath="$PROJECT_DIR$/test.http" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,17 +40,17 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/leo/study/fastcampus/servlet-practice",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "reference.settingsdialog.project.gradle"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/leo/study/fastcampus/servlet-practice&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.settingsdialog.project.gradle&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
@@ -89,7 +89,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1713107363414</updated>
-      <workItem from="1713107365104" duration="4207000" />
+      <workItem from="1713107365104" duration="4574000" />
+      <workItem from="1713445094722" duration="1501000" />
     </task>
     <task id="LOCAL-00001" summary="readme.md 파일 추가">
       <created>1713109654065</created>
@@ -112,11 +113,29 @@
       <option name="project" value="LOCAL" />
       <updated>1713185130615</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="GenericServlet 추상 클래스 사용 구현">
+      <created>1713185522400</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1713185522400</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ID_ORDER">
+      <list>
+        <option value="Default.Root" />
+        <option value="Default.Author" />
+        <option value="Default.Date" />
+        <option value="Default.Subject" />
+        <option value="Space.CommitStatus" />
+      </list>
+    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -133,6 +152,7 @@
     <MESSAGE value="readme.md 파일 추가" />
     <MESSAGE value="Servlet 인터페이스를 구현한 구현체 CalculatorServlet 추가 &amp; /calculate 호출 테스트" />
     <MESSAGE value="servlet interface 구현 -&gt; 필요하지 않지만 Servlet 에서 필수로 구현하게 하기 때문에 불필요한 부분이 존재함" />
-    <option name="LAST_COMMIT_MESSAGE" value="servlet interface 구현 -&gt; 필요하지 않지만 Servlet 에서 필수로 구현하게 하기 때문에 불필요한 부분이 존재함" />
+    <MESSAGE value="GenericServlet 추상 클래스 사용 구현" />
+    <option name="LAST_COMMIT_MESSAGE" value="GenericServlet 추상 클래스 사용 구현" />
   </component>
 </project>
