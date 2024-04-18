@@ -16,3 +16,11 @@
 - 위의 사유로 GenericServlet (abstract class) 등장하게 됨
 => Servlet 인터페이스 사용 시, 필요없는 메서드까지 구현해야 했음
 => GenericServlet 이라는 추상 클래스 사용 시, 필요한 메서드만 override 함!
+
+### URL 인코딩 (= 퍼센트 인코딩)
+- URL로 사용할 수 없는 문자(예약어, Non-ASCII문자(한글) 등)를 사용할 수 있도록 인코딩 하는 것
+- 인코딩된 문자는 triplet(세 개가 한 세트)로 인코딩 되며, 각각을 % 다음에 두 개의 16진수로 표현함
+- 예약 문자
+  - https://ko.wikipedia.org/wiki/퍼센트_인코딩
+- URL 인코딩
+  - https://convertstring.com/ko/EncodeDecode/UrlEncode

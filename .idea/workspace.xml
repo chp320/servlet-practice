@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="96aa8fb9-e2af-4c42-9625-bd09094e2372" name="Changes" comment="GenericServlet 추상 클래스 사용 구현">
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+    <list default="true" id="96aa8fb9-e2af-4c42-9625-bd09094e2372" name="Changes" comment="HttpServlet 추상 클래스 사용 구현">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/CalculatorServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/CalculatorServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/test.http" beforeDir="false" afterPath="$PROJECT_DIR$/test.http" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -90,7 +89,7 @@
       <option name="presentableId" value="Default" />
       <updated>1713107363414</updated>
       <workItem from="1713107365104" duration="4574000" />
-      <workItem from="1713445094722" duration="1501000" />
+      <workItem from="1713445094722" duration="2141000" />
     </task>
     <task id="LOCAL-00001" summary="readme.md 파일 추가">
       <created>1713109654065</created>
@@ -120,7 +119,14 @@
       <option name="project" value="LOCAL" />
       <updated>1713185522400</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="HttpServlet 추상 클래스 사용 구현">
+      <created>1713446676014</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1713446676014</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -153,6 +159,7 @@
     <MESSAGE value="Servlet 인터페이스를 구현한 구현체 CalculatorServlet 추가 &amp; /calculate 호출 테스트" />
     <MESSAGE value="servlet interface 구현 -&gt; 필요하지 않지만 Servlet 에서 필수로 구현하게 하기 때문에 불필요한 부분이 존재함" />
     <MESSAGE value="GenericServlet 추상 클래스 사용 구현" />
-    <option name="LAST_COMMIT_MESSAGE" value="GenericServlet 추상 클래스 사용 구현" />
+    <MESSAGE value="HttpServlet 추상 클래스 사용 구현" />
+    <option name="LAST_COMMIT_MESSAGE" value="HttpServlet 추상 클래스 사용 구현" />
   </component>
 </project>
